@@ -1,7 +1,10 @@
 ﻿int operacion, ejecucion = 1;
 double numero;
 
-Calculadora calculadora = new Calculadora(0);
+Console.Write("Ingrese el número que desea operar: ");
+numero = Convert.ToDouble(Console.ReadLine());
+
+Calculadora calculadora = new Calculadora(numero);
 
 do
 {
